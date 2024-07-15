@@ -4,12 +4,17 @@ function rnadomgen() {
   random = Math.floor(random);
   return random;
 }
+function nonums(str) {
+  
+  const regex = /^[a-zA-Z\s]+$/;
+  return regex.test(str);
+}
 
 document.getElementById("btn").onclick = function () {
   var random = rnadomgen();
   var guyname = document.getElementById("Guy").value;
   var girlname = document.getElementById("Girl").value;
-  if (guyname ==="" || girlname ==="") {
+  if (guyname ==="" || girlname ==="" ||( !nonums(guyname)||!nonums(girlname))) {
     document.getElementById("result").innerHTML = "Please enter the names";
   } else if (random >= 1 && random <= 20) {
     document.getElementById("result").innerHTML =
