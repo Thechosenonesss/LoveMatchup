@@ -1,0 +1,85 @@
+
+body{
+    
+    background-color:#FE7F9C;
+    font-family:'Caveat',cursive;
+}
+#main{
+    background-color:#FEC5E5;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    flex-direction:column;
+    height:600px;
+    width:500px;
+    
+    border-radius:20px;
+}
+#title{
+    position: inherit;
+    top: 10%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:50px;
+    font-weight:bold;
+    margin-top:50px;
+
+}
+label{
+    font-size:20px;
+}
+#Guy{
+    height:40px;
+    width:250px;
+    border-radius:10px;
+   font-size:20px
+
+}
+.cross{
+    font-size:30px;
+}
+#Girl{
+    font-size:20px;
+    height:40px;
+    width:250px;
+    border-radius:10px;
+}
+#btn{
+    height:40px;
+    width:250px;
+    border-radius:10px;
+position: inherit;
+top: 70%;
+left:50%;
+transform:translate(-50%,-50%);
+background-color:white;
+}
+#ref{
+    height:40px;
+    width:250px;
+    border-radius:10px;
+position: inherit;
+top: 79%;
+left:50%;
+transform:translate(-50%,-50%);
+background-color:white;
+}
+#result{
+    background-color:white;
+    height:60px;
+    width:250px;
+    border:1px solid black;
+    border-radius:10px;
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+    
+position: inherit;
+top: 90%;
+left:50%;
+transform:translate(-49%,-50%);
+}
