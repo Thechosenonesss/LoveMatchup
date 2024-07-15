@@ -4,6 +4,38 @@ body{
     background-color:#FE7F9C;
     font-family:'Caveat',cursive;
 }
+@media (max-width:650px) {
+    #main{
+        height:400px !important;
+        width:300px !important;
+    }
+    #title{
+        font-size: 20px !important;
+    }
+    label{
+        font-size: 20px !important;
+
+    }
+    #Guy{
+        width: 100px !important;
+
+    }
+    .cross{
+        font-size:15px !important;
+    }
+    #Girl{
+        width: 100px !important;
+    }
+    #btn{
+        width: 100px !important;
+    }
+    #ref{
+        width: 100px !important;
+    }
+    #result{
+        width: 100px !important;
+    }
+}
 #main{
     background-color:#FEC5E5;
     position:absolute;
