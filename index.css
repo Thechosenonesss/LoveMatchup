@@ -1,40 +1,27 @@
-
-body{
-    
-    background-color:#FE7F9C;
-    font-family:'Caveat',cursive;
-}
 @media (max-width:650px) {
     #main{
-        height:400px !important;
-        width:300px !important;
+        height:500px !important;
+        width:400px !important;
     }
     #title{
-        font-size: 20px !important;
+        font-size: 35px !important;
     }
     label{
         font-size: 20px !important;
 
     }
-    #Guy{
-        width: 100px !important;
-
-    }
+    
     .cross{
-        font-size:15px !important;
+        font-size:20px !important;
+    
+        
     }
-    #Girl{
-        width: 100px !important;
-    }
-    #btn{
-        width: 100px !important;
-    }
-    #ref{
-        width: 100px !important;
-    }
-    #result{
-        width: 100px !important;
-    }
+   
+}
+body{
+    
+    background-color:#FE7F9C;
+    font-family:'Caveat',cursive;
 }
 #main{
     background-color:#FEC5E5;
@@ -61,6 +48,10 @@ body{
     margin-top:50px;
 
 }
+.pc{
+    color:#FEC5E5;
+    visibility:hidden;
+}
 label{
     font-size:20px;
 }
@@ -84,20 +75,14 @@ label{
     height:40px;
     width:250px;
     border-radius:10px;
-position: inherit;
-top: 70%;
-left:50%;
-transform:translate(-50%,-50%);
+
 background-color:white;
 }
 #ref{
     height:40px;
     width:250px;
     border-radius:10px;
-position: inherit;
-top: 79%;
-left:50%;
-transform:translate(-50%,-50%);
+
 background-color:white;
 }
 #result{
